@@ -1,0 +1,120 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+#task-input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+#task-input:focus {
+  border-color: #74b9ff;
+  outline: none;
+}
+
+button {
+  padding: 12px 16px;
+  background: #0984e3;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0652dd;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f1f2f6;
+  margin-bottom: 12px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+li.done {
+  text-decoration: line-through;
+  color: #7f8c8d;
+  background: #dcdde1;
+}
+
+li:hover {
+  background: #dcdde1;
+}
+
+li button {
+  background: transparent;
+  border: none;
+  color: #e74c3c;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+li button:hover {
+  color: #c0392b;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.pomodoro {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#timer {
+  font-size: 48px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 20px;
+}
+
+.pomodoro-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
