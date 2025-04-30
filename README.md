@@ -5,6 +5,7 @@ A simple web app to manage your tasks and stay productive with a built-in Pomodo
 ## Features
 - Add, check, and delete tasks
 - Pomodoro timer (25 mins)
+- Light And Dark theme
 - Responsive UI using HTML, CSS, and JS
 
 ## Getting Started
