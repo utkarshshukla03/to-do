@@ -16,4 +16,5 @@ Open `index.html` in your browser.
 - Sanket Karwa
 - Srishti Sharma
 - Saksham Garg
-- Ashish Kumar 
+- Ashish Kumar
+- Krish Gupta 
